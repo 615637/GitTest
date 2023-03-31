@@ -1,0 +1,21 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int subKor, subMat, subEng, subSci, subPhy;
+		subKor = 10;
+		subMat = 9;
+		subEng = 8;
+		subSci = 7;
+		subPhy = 6;
+		System.out.println(subKor);
+		System.out.println(subMat);
+		System.out.println(subEng);
+		System.out.println(subSci);
+		System.out.println(subPhy);
+
+		int iValue = 10;
+		double dValue = iValue+0.5;
+System.out.println("iValue °ª" : +iValue);
+System.out.println("dValue °ª" : +dValue);
+	}
+}

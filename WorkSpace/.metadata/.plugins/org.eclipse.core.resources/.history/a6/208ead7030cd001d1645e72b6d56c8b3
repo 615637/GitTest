@@ -1,0 +1,8 @@
+package pack01_variable;
+
+public class Ex01variable {
+public static void main(String[] args) {
+	System.out.println("¿Ã¥œº»");
+
+}
+}

@@ -1,0 +1,7 @@
+package pack02_byte;
+
+public class Ex01_Byte {
+public static void main(String[] args) {
+	
+}
+}

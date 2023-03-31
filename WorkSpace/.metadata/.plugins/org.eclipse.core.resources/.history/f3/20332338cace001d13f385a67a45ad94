@@ -1,0 +1,11 @@
+package pack09_scanner;
+
+import java.util.Scanner;
+
+public class Ex01_Scanner {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in); //클래스 초기화 식
+		
+		
+	}
+}

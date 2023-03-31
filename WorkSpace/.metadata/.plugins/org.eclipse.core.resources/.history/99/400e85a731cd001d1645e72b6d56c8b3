@@ -1,0 +1,16 @@
+package pack01_variable;
+
+public class Ex01variable {
+public static void main(String[] args) {
+	System.out.println("이니셜10");
+	//int=정수타입 변수 선언
+	int a;
+	int b;
+	int c;
+	//=는 대입(담다)
+	a=10;
+	b=20;
+	c=30;
+	
+}
+}
