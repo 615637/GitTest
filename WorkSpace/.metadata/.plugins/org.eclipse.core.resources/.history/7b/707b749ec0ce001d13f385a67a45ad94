@@ -1,0 +1,9 @@
+
+public class test04 {
+	public static void main(String[] args) {
+		int iNum;
+		double dNum;
+		char cChr;
+		String sStr;
+	}
+}

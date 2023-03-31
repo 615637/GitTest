@@ -1,0 +1,15 @@
+
+public class test04 {
+	public static void main(String[] args) {
+		int iNum;
+		double dNum;
+		char cChr;
+		String sStr;
+		//변수의 값 : 리터럴
+		iNum=10;
+		dNum=10;
+		cChr='A';
+		sStr="공";
+		System.out.println(dNum);
+	}
+}
