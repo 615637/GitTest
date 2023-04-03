@@ -1,0 +1,15 @@
+
+public class Test01 {
+	public static void main(String[] args) {
+		int a = 10;
+		double b = 10.5;
+		String c = "a";
+
+		System.out.println(a + b + c);
+		
+		String numStr="123";
+		System.out.println(numStr+10);
+		int a=Integer.parseInt=numStr;
+		
+	}
+}

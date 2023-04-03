@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Test03 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String inputData1 = sc.nextLine();
+		System.out.println(inputData1);
+
+		int sum = Integer.parseInt(inputData1);
+		System.out.println(sum);
+		String result = sum/2 = %==0 ? "Âü":"°ÅÁş";
+		System.out.println(result);
+
+	}
+}

@@ -1,0 +1,30 @@
+
+public class Ex08_Oper {
+	public static void main(String[] args) {
+		// 비교연산자:조건문
+		int num1 = 10, num2 = 10;
+		boolean result1 = num1 == num2;// true
+		boolean result2 = num1 != num2;// falsse
+		boolean result3 = num1 <= num2;// true
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+
+		System.out.println(num1 >= num2);
+		System.out.println(num1 < num2);
+		System.out.println(num1 > num2);
+		
+		System.out.println("구분");
+		System.out.println(10>5&&20>5);
+		System.out.println(10>5&&20<5);
+		System.out.println(5>10&&20>5);
+		System.out.println(5>10&&5>20);
+		System.out.println("구분");
+		System.out.println(10>5||20>5);//T
+		System.out.println(10>5||20<5);//T
+		System.out.println(5>10||20>5);//T
+		System.out.println(5>10||5>20);//F
+		
+		System.out.println(10>5&&20>5||5>10);
+	}
+}

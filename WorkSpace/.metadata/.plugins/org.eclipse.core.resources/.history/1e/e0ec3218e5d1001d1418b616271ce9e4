@@ -1,0 +1,9 @@
+
+public class Ex03_Bool {
+	public static void main(String[] args) {
+		boolean tr=true;
+		boolean fs=false;
+		
+
+	}
+}

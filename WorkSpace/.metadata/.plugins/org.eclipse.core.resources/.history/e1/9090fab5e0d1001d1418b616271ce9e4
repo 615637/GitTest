@@ -1,0 +1,10 @@
+
+public class Ex01_Operator {
+	public static void main(String[] args) {
+		int x = -100;
+		int result1 = +x; //예상 -100
+		int result2 = -x; //예상 (+)100
+		System.out.println(result1);
+		System.out.println(result2);
+	}
+}

@@ -1,0 +1,7 @@
+
+public class Ex07_Oper {
+public static void main(String[] args) {
+	//0초과 4미만 1, 2, 3
+	//0이상 4이하 0, 1, 2, 3, 4
+}
+}
