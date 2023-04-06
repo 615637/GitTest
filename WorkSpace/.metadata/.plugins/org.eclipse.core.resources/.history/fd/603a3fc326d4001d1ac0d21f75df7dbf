@@ -1,0 +1,19 @@
+package pack05_etc;
+
+import java.util.Scanner;
+
+public class Ex01_Break {
+	public static void main(String[] args) {
+		//break;문은 제어문 종료. 빠져나가는 기능
+		// 무한루프하는 반복문 밑에 코드가 있으면 에러(영원히 실행 안됨)
+		// 제어문 하나에 하나씩.
+		
+		Scanner sc=new Scanner(System.in);
+		int userNum=Integer.parseInt(sc.nextLine());
+		while(true) {
+			System.out.println("루프중");
+			break;
+			}
+		System.out.println("출력");
+	}
+}

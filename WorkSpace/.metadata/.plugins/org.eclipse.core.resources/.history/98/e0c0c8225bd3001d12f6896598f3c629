@@ -1,0 +1,13 @@
+package pack03_for;
+
+public class Ex03_DebugFor {
+	public static void main(String[] args) {
+		//디버깅 매우 중요!
+		Scanner sc=new Scanner(System.in);
+		String inputData = sc.nextLine();
+		int userNum=Integer.parseInt(inputData);
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+	}
+}

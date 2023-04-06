@@ -1,0 +1,7 @@
+package pack02_switch;
+
+public class Ex01_Switch {
+public static void main(String[] args) {
+	
+}
+}

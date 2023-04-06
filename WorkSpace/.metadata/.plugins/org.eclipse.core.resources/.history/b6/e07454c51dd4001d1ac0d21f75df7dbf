@@ -1,0 +1,12 @@
+package pack04_while;
+
+public class Test01_While {
+	public static void main(String[] args) {
+		int i=2;
+		while(i<=9) {
+			System.out.println(i);
+			i++;
+		}
+		int j=1;
+	}
+}

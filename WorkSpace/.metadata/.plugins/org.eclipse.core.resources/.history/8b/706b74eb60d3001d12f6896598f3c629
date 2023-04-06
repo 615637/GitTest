@@ -1,0 +1,21 @@
+package pack03_for;
+
+public class Ex04_ForFor {
+	public static void main(String[] args) {
+		// 무한 중첩 가능(순서x)
+	/*	for (int i = 1; i <= 10; i++) {
+			System.out.println("i"+i);
+			for (int j = 1; j <= 10; j++) {
+				System.out.println("j"+j);
+			}
+		} */
+		//구구단 출력
+		 for(int k=2; k<=9; k++) {
+			 System.out.println(k);
+			 for(int l=1; l<=9; l++) {
+				 System.out.println(l);
+				 System.out.println(k*l);
+			}
+		 }
+	}// m
+}// c

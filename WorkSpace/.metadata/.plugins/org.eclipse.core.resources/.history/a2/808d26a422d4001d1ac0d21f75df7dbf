@@ -1,0 +1,18 @@
+package pack04_while;
+
+public class Test02_While {
+	public static void main(String[] args) {
+
+		int s=1;
+		while(s<=5) {
+			int t=1;
+			while(t<=s) {
+				System.out.println("¡Ú");
+				t++;
+			}
+			System.out.println("¡Ú");
+			s++;
+			System.out.println();
+		}
+	}
+}

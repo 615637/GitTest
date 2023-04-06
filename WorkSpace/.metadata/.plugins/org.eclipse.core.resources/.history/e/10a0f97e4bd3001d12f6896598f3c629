@@ -1,0 +1,11 @@
+package pack02_switch;
+
+public class Ex01_Switch {
+	public static void main(String[] args) {
+		//제어문 중 선택문, switch문 : 다중 if문을 간략하게 표현
+		//기준값, 비교값이 해당하는 값과 일치할 때 실행
+		//switch(기준값){
+		//case 값:
+		//실행
+	}
+}

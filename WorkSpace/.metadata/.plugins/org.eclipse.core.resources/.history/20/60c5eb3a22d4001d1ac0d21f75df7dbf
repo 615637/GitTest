@@ -1,0 +1,12 @@
+package pack04_while;
+
+public class Test02_While {
+	public static void main(String[] args) {
+
+		int s=1;
+		while(s<5) {
+			s++;
+			System.out.println("¡Ú");
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package pack05_etc;
+
+public class Ex02_Continue {
+	public static void main(String[] args) {
+		//반복문에서 continue를 만나면 밑에 코드 실행 안함. 반복문(조건문)으로 이동
+		//홀수의 누적합
+		for(int i=1; i<10; 1++) {
+			if(i%2==0) {
+				continue;
+			}
+			System.out.println(i);
+		}
+	}
+}
