@@ -1,0 +1,5 @@
+package pack.b;
+
+public class C {
+//pack.a에 있는 클래스 중에 어디까지 접근이 가능한지
+}

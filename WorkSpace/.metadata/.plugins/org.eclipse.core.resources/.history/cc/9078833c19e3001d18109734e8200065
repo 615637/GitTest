@@ -1,0 +1,9 @@
+package pack04.extend;
+
+public class ChangeTypeMain {
+	
+	CellPhone cp=new DmbPhone(1, "»ö»ó", "¸ðµ¨");
+	CellPhone cp2=new SmartPhone(1, "»ö»ó", "¸ðµ¨", 5);
+	cp2.powerON();
+	
+}

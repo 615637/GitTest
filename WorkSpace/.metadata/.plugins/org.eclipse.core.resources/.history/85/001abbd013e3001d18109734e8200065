@@ -1,0 +1,11 @@
+package pack04.extend;
+
+public class SmartPhone extends DmbPhone{
+
+	public SmartPhone(int channel, String color, String model) {
+		super(channel, color, model);//부모클래스가 별도의 생성자 메소드를 가지고 있다면
+		//해당 부모 클래스 인스터스화 되어야 자식 객체 생성이 가능함.
+		
+	}
+
+}

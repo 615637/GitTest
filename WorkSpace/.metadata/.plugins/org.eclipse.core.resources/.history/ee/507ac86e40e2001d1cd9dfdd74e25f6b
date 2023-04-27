@@ -1,0 +1,39 @@
+package test01_oop1;
+
+import java.util.Scanner;
+
+public class DrinkDAO {
+	public DrinkDTO[] initDrinks() {
+		DrinkDTO[] drinkArr = new DrinkDTO[3];
+		drinkArr[0] = new DrinkDTO("콜라", 800, 7);
+		drinkArr[1] = new DrinkDTO("사이다", 1000, 5);
+		drinkArr[2] = new DrinkDTO("환타", 900, 1);
+		return drinkArr;
+	}
+
+	public void display(DrinkDTO[] drinkArr) {
+		System.out.println("음료명\t가격\t개수");
+		for (int i = 0; i < drinkArr.length; i++) {
+			System.out.print((i + 1) + "." + drinkArr[i].getName() + "\t");
+			System.out.print(drinkArr[i].getPrice() + "\t");
+			System.out.print(drinkArr[i].getCnt() + "\t");
+			System.out.println();
+		}
+	}
+
+	public int inputint() {
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			try {
+				int rtnInt = Integer.parseInt(sc.nextLine());
+				return rtnInt;
+			} catch (Exception e) {
+				System.out.println("숫자값만 입력해주세요.");
+			}
+		}
+	}
+	public void inputMoney() {
+		int money = inputInt();
+		
+	}
+}

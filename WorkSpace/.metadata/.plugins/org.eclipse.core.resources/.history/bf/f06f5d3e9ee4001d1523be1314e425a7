@@ -1,0 +1,13 @@
+package pack03.inter;
+
+public class AndroidActivity {
+public static void main(String[] args) {
+	AndroidOnclick ao = new AndroidOnclick() {
+		
+		@Override
+		public void onClick() {
+			
+		}
+	};
+}
+}

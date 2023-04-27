@@ -1,0 +1,5 @@
+package pack01.extend;
+
+public class ChildClass {
+	String child_field="자식 클래스의 필드입니다."
+}

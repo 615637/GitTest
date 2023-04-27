@@ -1,0 +1,13 @@
+package test01_oop1;
+
+import java.util.Scanner;
+
+public class AdminDAO {
+public void adminLogin() {
+	Scanner sc=new Scanner(System.in);
+	String id=sc.nextLine();
+	String pw=sc.nextLine();
+	if
+	
+}
+}

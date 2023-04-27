@@ -1,0 +1,10 @@
+package japangi;
+
+public class JapangiMain {
+	public static void main(String[] args) {
+		JapangiDTO doo = new JapangiDTO();
+		JapangiDAO dao = new JapangiDAO();
+		dao.display(doo);
+
+	}
+}

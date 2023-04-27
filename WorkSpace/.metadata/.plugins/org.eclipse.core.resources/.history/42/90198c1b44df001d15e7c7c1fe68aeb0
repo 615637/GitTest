@@ -1,0 +1,16 @@
+package japangi001;
+
+public class JapangiDTO001 {
+	int Price, cnt;
+	String bev;
+	
+	voidJapangiDTO001(int price, int cnt, String bev) {
+		this.Price = price;
+		this.cnt = cnt;
+		this.bev = bev;
+	}
+	
+	
+
+	
+}

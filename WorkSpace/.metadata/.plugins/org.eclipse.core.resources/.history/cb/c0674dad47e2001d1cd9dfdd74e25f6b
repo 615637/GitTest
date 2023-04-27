@@ -1,0 +1,40 @@
+package test01_oop1;
+
+import java.util.Scanner;
+
+public class DrinkMain {
+public static void main(String[] args) {
+//	DrinkDTO dto=new DrinkDTO("콜라",800,7);
+	DrinkDAO dao=new DrinkDAO();
+//	DrinkDTO[] drinkArr=dao.initDrinks();
+	
+	while(true) {
+		dao.display(drinkArr);
+		System.out.println("1.음료주문, -1.종료");
+		int inputMenu=dao.inputInt();
+		if(inputMenu==1) {
+		System.out.println("돈을 넣어주세요.");
+		int money=dao.inputMoney();
+		System.out.println("금액 입력 됨: "+money);
+		System.out.println("음료번호를 입력해주세요");
+		int choice = dao.choiceMenu(drinkArr);
+		System.out.println(choice + "번 선택완료");
+		
+		DrinkDTO tempDTO= dao.orderMenu(drinkArr[choice-1], money);
+		if(tempDTO==null) {
+			System.out.println(money+"원 반환! 금액 부족 다시 이용해주세요");
+		}else {
+			drinkArr[choice-1]=tempDTO;
+			money=money-drinkArr[choice-1].getPrice();
+			System.out.println(money+"원 반환. 감사합니다");
+		}
+		
+		
+		}else if(inputMenu==-1) {
+			System.out.println("종료되었습니다.");
+			break;
+		}
+		}
+	
+}
+}

@@ -1,0 +1,7 @@
+package pack02.inter;
+
+public interface RemoteControl {
+	//오디오, 텔레비전 공통 된 기능을 무조건 구현하게 만들기
+	//전원 on/off
+	//볼륨 up/down
+}

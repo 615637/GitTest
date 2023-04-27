@@ -1,0 +1,6 @@
+package pack05.abstrac;
+
+public abstract class Animal {
+	public String kind;
+	
+}

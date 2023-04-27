@@ -1,0 +1,9 @@
+package pack.b;
+
+import pack.a.B;
+//다른 패키지에 있는 클래스를 사용하겠다의 선언
+public class C {
+//pack.a에 있는 클래스 중에 어디까지 접근이 가능한지
+	//A:패키지가 달라서 접근 불가
+	 B b;
+}

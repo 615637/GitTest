@@ -1,0 +1,6 @@
+package pack02.inter;
+
+public class AndroidOnclick {
+void onClick();
+
+}

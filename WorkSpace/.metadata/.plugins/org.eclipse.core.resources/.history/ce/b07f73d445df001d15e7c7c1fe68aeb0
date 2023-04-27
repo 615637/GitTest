@@ -1,0 +1,9 @@
+package japangi001;
+
+import java.util.Scanner;
+
+public class JapangiMain001 {
+	public static void main(String[] args) {
+		
+	}
+}

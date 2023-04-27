@@ -1,0 +1,23 @@
+package test01_oop1;
+
+import java.util.Scanner;
+
+public class DrinkMain {
+public static void main(String[] args) {
+//	DrinkDTO dto=new DrinkDTO("콜라",800,7);
+	DrinkDTO[] drinkArr=new DrinkDTO[3];
+	drinkArr[0]=new DrinkDTO("콜라", 800, 7);
+	drinkArr[1]=new DrinkDTO("사이다", 1000, 5);
+	drinkArr[2]=new DrinkDTO("환타", 900, 1);
+	
+	
+	Scanner sc=new Scanner(System.in);
+	while(true) {
+		String inputData=sc.nextLine();
+		if(inputData.equals("-1")) {
+			System.out.println("종료되었습니다.");
+			break;
+		}
+	}
+}
+}

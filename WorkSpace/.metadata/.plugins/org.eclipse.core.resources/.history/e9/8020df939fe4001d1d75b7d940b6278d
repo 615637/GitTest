@@ -1,0 +1,5 @@
+package pack04.Db;
+
+public class MysqlDAO {
+
+}

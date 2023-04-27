@@ -1,0 +1,6 @@
+package test01_oop1;
+
+public class DrinkDTO {
+	private String name;
+	private int price, cnt;
+}

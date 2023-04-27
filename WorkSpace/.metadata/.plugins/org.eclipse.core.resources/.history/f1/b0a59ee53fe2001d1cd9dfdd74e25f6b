@@ -1,0 +1,22 @@
+package test01_oop1;
+
+import java.util.Scanner;
+
+public class DrinkMain {
+public static void main(String[] args) {
+//	DrinkDTO dto=new DrinkDTO("콜라",800,7);
+	DrinkDAO dao=new DrinkDAO();
+	DrinkDTO[] drinkArr=dao.initDrinks();
+	
+	while(true) {
+		dao.display(drinkArr);
+		int inputMenu=dao.inputint();
+		System.out.println("1.음료주문, -1.종료");
+		
+		if(inputMenu==-1) {
+			System.out.println("종료되었습니다.");
+			break;
+		}
+	}
+}
+}

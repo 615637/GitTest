@@ -1,0 +1,5 @@
+package pack04.extend;
+
+public class CellPhone {
+//1세대폰 : 전원을 켜고 끄는 기능과, 통화기능이 있는 휴대폰
+}

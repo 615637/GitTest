@@ -1,0 +1,8 @@
+package japangi001;
+
+public class JapangiDAO001 {
+	void display(JapangiDTO001 dto) {
+
+	}
+
+}

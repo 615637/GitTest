@@ -1,0 +1,9 @@
+package pack02.extend;
+
+public class SuperClass {
+
+	public void sum(int num1, int num2) {
+		
+	}
+	
+}

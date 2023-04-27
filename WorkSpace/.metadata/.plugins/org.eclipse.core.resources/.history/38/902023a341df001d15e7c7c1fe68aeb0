@@ -1,0 +1,16 @@
+package japangi;
+
+import java.util.Scanner;
+
+public class JapangiMain {
+	public static void main(String[] args) {
+		JapangiDTO dto1=new JapangiDTO(800,8,"콜라");
+		JapangiDTO dto2=new JapangiDTO(1000,5,"사이다");
+		JapangiDTO dto3=new JapangiDTO(900,1,"환타");
+		
+		JapangiDAO dao=new JapangiDAO();
+		dao.display(dto1);
+		
+		
+	}
+}

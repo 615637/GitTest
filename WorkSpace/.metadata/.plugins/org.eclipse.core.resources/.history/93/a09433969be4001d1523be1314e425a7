@@ -1,0 +1,10 @@
+package pack02.inter;
+
+public class RemoteMain {
+	public static void main(String[] args) {
+		Audio ad = new Audio();
+		ad.turnOn();
+		ad.turnOff();
+		ad.setVolume(30);
+	}
+}
